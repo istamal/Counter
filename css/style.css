@@ -26,6 +26,7 @@ input {
     padding: 10px;
     border-radius: 20px;
     color: #aaa;
+    outline: none;
 }
 
 input::placeholder {
@@ -39,4 +40,5 @@ input::placeholder {
     border: none;
     border-radius: 15px;
     box-shadow: 2px 2px 5px #a0f;
+    outline: none;
 }

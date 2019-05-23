@@ -6,6 +6,6 @@ let firstInput = document.getElementById("input-1"),
 button.addEventListener('click', () => {
 
     let result = Number(firstInput.value) + Number(secondInput.value);
-    alert("Если сложить " + firstInput.value + " и " + secondInput.value + " плучается " + result.toFixed(1));
+    alert(`Если сложить ${firstInput.value} и ${secondInput.value} плучается ${result.toFixed(1)}`);
 
 });
